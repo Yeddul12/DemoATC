@@ -1,0 +1,11 @@
+i naveen how are u
+where are u
+have u lanch
+
+
+today topic create a EC2 to connect the aws online terminal
+to practice in the aws 
+to start the section in linux , git , maven Docker jenkins and kubernates
+
+ 
+today practice in linux commands , git-version control system and  maven 

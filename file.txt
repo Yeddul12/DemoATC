@@ -1,11 +1,12 @@
 ++++++==== git practice commands write down     ======+++++
 
 		==@#@#@#@#@@-- git commands -@#@#@#@#@#@===
-		
+	
+	git --help		
 	which git
 	who
 	who am i
-	git --version 
+	git --version/-v 
 	git clone https://github.com/Yeddul12/Practice.git
 	ls 
 	cd Practice
@@ -24,6 +25,16 @@
 	git checkout -b feature-branch
 	git branch 
 	git switch master
+	git switch -c developer-branch
+	git branch -r
+	git branch -a/--all
+	git branch -d developer-branch
+	git checkout commitid 
+	git branch commitid 
+	git branch -m host-fix
+	git branch --help
+
+
 				master is defult 
 
 	------////// local to github repository pushed ///////--------
@@ -37,5 +48,91 @@
 	git status
 	git add .
 	git commit -m "local to change in github"
-	git push remote origin <url>
+	git remote add origin <url>
+	git remote show
+	git remote show origin
+	git remote
+	git remote rename <oldname>  <newname>
+	git remote -v 
+	git remote --help
+	git remote remove <newname>
+
+	################### ASKING FOR CONFIGURACTION  ################################
+	NOTE
+	     we can write down below commands
+		
+	git config --global user.email "mythinkingcreatative@gmail.com"
+	git config --global user.name "github user name writing (Mythink12)"
+	git config 
+	git config --list (TO SHOWING GIT USER CONFIGRACTION)
+
+	____________--- over configuraction ---____________
+
+	git show 
+	git show file.txt
+	git show feature-branch
+	git show commitid
+	git log 
+	git log -n
+	git log --oneline
+	git log --graph
+	git log --all
+	git log --oneline --graph --all
+	git log --follow file.txt/branchname 
+	git log file.txt	
+	git log --pretty=oneline
+	git log --pretty=full
+	git log --pretty=short
+	gitlog --pretty=fuller
+	
+	git diff file.txt
+	git diff master-branch
+	git diff commitid
+	git diff commitid commitid2
+	git diff --staged file.txt
+	git diff --cached file.txt
+	
+	git rm -rf file.txt/folder
+	
+	git restore --staged file.txt
+	git restore file.txt	
+	git revert -n commitd
+	git revert --skip 
+	git revert --abort
+	
+	git mv file.txt index.txt
+
+	git merge master
+	git blame file.txt
+		
+	git pull
+		
+	git fetch
+	git merge origin/perticular-branch
+	
+	git push 
+	git push origin master-branch
+	git push --set-upstream origin feature-branch
+	git push origin commitid
+	git push -d origin host-fix
+	git push origin --all/-a
+
+	NOTE:
+		ASKING FOR GITHUB USERNMAE:Mything12
+			          PASSWORD:
+
+
+	git tag --help
+	git tag
+	git tag -e
+	git tag <tag nmae/number/version> commitid
+	git checkout <tag name/number/version>
+	git tag -d <tag name/number/version>
+
+	git rebase commitid host-fix-branch
+
+	git cherry-pick commitid 
+
+	git config alias.<newname> "log --oneline --graph --all"
+	
 	

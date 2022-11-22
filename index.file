@@ -1,0 +1,48 @@
+practice in git my team u have new persons 
+
+linux u have practice commands --
+pwd
+ls
+cat
+cat >file.txt
+cd 
+mkdir 
+cp 
+scp
+diff
+df
+du
+touch
+grep
+find
+sudo username
+sudo userdel
+vim
+ping
+ps
+ifconfig
+kill
+jobs
+tail /etc/passwd
+cat /etc/passwd
+less /etc/passwd
+more /etc/passwd
+sleep
+date
+time
+zip
+unzip
+tr
+mv
+head
+tail
+more
+less
+sudo su
+su 
+echo
+tree
+pstree
+rm
+
+

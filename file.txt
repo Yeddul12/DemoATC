@@ -1,0 +1,14 @@
+
+	== git commands some more using ==
+  git show
+  git log 
+  git log --
+  git log
+  git log 
+  git log
+
+  git config 
+  git config --list
+  git config
+  git config 
+  git 

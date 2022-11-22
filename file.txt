@@ -1,0 +1,41 @@
+++++++==== git practice commands write down     ======+++++
+
+		==@#@#@#@#@@-- git commands -@#@#@#@#@#@===
+		
+	which git
+	who
+	who am i
+	git --version 
+	git clone https://github.com/Yeddul12/Practice.git
+	ls 
+	cd Practice
+	ls
+	vi file.txt   :wq!         :q!         :q
+	git status
+	git add file.txt
+	git commit -m "git commands"   
+	git push 
+		asking github username 
+				passwd
+		
+	sucessfully done /// github pushed // to check the github account pushing file.txt showing
+
+	git branch feature-branch
+	git checkout -b feature-branch
+	git branch 
+	git switch master
+				master is defult 
+
+	------////// local to github repository pushed ///////--------
+	
+	git init
+	mkdir folder/directory
+	cd folder/directory
+	ls
+	vi index.file
+	ls
+	git status
+	git add .
+	git commit -m "local to change in github"
+	git push remote origin <url>
+	
